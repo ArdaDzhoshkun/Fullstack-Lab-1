@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<h1>Totally not Arda's Kitchen, The Website.</h1>
+<h2>Down below are some of my recipes.</h2>
+
+<table>
+    <thead class="thead">
+        <tr>
+            <th>Name</th>
+            <th>Ingredients</th>
+            <th>Preparation Steps</th>
+            <th>Origin</th>
+            <th>Duration (Minutes)</th>
+            <th>Spicyness (1-10)</th>
+            <th>Gluten Free</th>
+            <th>Vegan</th>
+        </tr>
+    </thead>
+    <tbody class="tbody">
+
+    </tbody>
+</table>
+
+<h2>You can upload your own recipes here!</h2>
+
+
+ <form class="recipeForm">
+    <h3>Fill out the form to add, update or delete a recipe</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="ingredients">Ingredients:</label>
+    <input type="text" id="ingredients" name="ingredients" required><br><br>
+    <label for="ingredients">Ingredients:</label>
+    <input type="text" id="ingredients" name="ingredients" required><br><br>
+    <label for="preparation">Preparation Steps (separate each step by a comma):</label>
+    <textarea id="preparation" name="preparation" rows="4" cols="50" required></textarea><br><br>
+    <label for="time">Duration:</label>
+    <input type="text" id="time" name="time" required><br><br>
+    <label for="landOfOrigin">Origin:</label>
+    <input type="text" id="landOfOrigin" name="landOfOrigin"><br><br>
+    <label for="spiceLevel">Spicyness:</label>
+    <input type="number" id="spiceLevel" name="spiceLevel"><br><br>
+    <label for="glutenFree">Gluten Free:</label>
+    <input type="checkbox" id="glutenFree" name="glutenFree"><br><br>
+    <label for="vegan">Vegan:</label>
+    <input type="checkbox" id="vegan" name="vegan"><br><br>
+    <!-- ust to keep track of what recipe is which-->
+    <input type="hidden" id="recipeId" name="recipeId">
+    <button type="submit">Save</button>
+ </form>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>

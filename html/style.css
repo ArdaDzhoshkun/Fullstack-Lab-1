@@ -1,0 +1,112 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7b9bf1;
+    margin: 20px;
+    color: #333;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Form styling */
+form.recipeForm {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff3e0;
+    border-radius: 10px;
+}
+
+form.recipeForm label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form.recipeForm input[type="text"],
+form.recipeForm input[type="number"],
+form.recipeForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form.recipeForm input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+form.recipeForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e67e22;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+form.recipeForm button:hover {
+    background-color: #d35400;
+}
+
+/* Inputs inside table */
+table input[type="text"],
+table input[type="number"] {
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+table input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+/* Buttons inside table */
+table button {
+    margin: 2px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Menemen",
+    "ingredients": ["Eggs", "Tomatoes", "Green peppers", "Onion", "Olive oil", "Salt", "Black pepper"],
+    "preparation": [
+      "Heat olive oil in a pan.",
+      "Add chopped onions and green peppers, sauté until soft.",
+      "Add chopped tomatoes and cook until they release juice.",
+      "Crack eggs into the mixture and stir gently.",
+      "Cook until eggs are just set, season with salt and black pepper.",
+      "Serve hot with bread."
+    ],
+    "time": 20,
+    "landOfOrigin": "Turkey",
+    "glutenFree": true,
+    "vegan": false,
+    "spiceLevel": 1
+  },
+  {
+    "name": "Lahmacun",
+    "ingredients": ["Flour", "Water", "Yeast", "Ground beef or lamb", "Onion", "Tomato paste", "Parsley", "Red pepper flakes", "Salt", "Lemon wedges"],
+    "preparation": [
+      "Prepare dough with flour, water, yeast.",
+      "Mix ground meat with onions, parsley, tomato paste, red pepper flakes, salt.",
+      "Roll dough thin, spread meat mixture on top.",
+      "Bake in hot oven until crispy.",
+      "Serve with lemon and parsley."
+    ],
+    "time": 45,
+    "landOfOrigin": "Turkey",
+    "glutenFree": false,
+    "vegan": false,
+    "spiceLevel": 3
+  },
+  {
+    "name": "İmam Bayıldı",
+    "ingredients": ["Eggplants", "Onion", "Garlic", "Tomatoes", "Olive oil", "Parsley", "Salt", "Black pepper", "Sugar"],
+    "preparation": [
+      "Slice eggplants, scoop out a little flesh.",
+      "Sauté onions and garlic in olive oil.",
+      "Add chopped tomatoes, sugar, salt, black pepper.",
+      "Fill eggplants with mixture, bake until tender.",
+      "Garnish with parsley and serve."
+    ],
+    "time": 50,
+    "landOfOrigin": "Turkey",
+    "glutenFree": true,
+    "vegan": true,
+    "spiceLevel": 1
+  },
+  {
+    "name": "Kısır",
+    "ingredients": ["Fine bulgur", "Tomato paste", "Red pepper paste", "Olive oil", "Lemon juice", "Parsley", "Green onions", "Mint", "Pomegranate molasses", "Salt", "Black pepper"],
+    "preparation": [
+      "Soak bulgur in hot water.",
+      "Mix with tomato paste, red pepper paste, olive oil.",
+      "Add parsley, green onions, mint.",
+      "Season with salt, pepper, lemon juice.",
+      "Add pomegranate molasses.",
+      "Serve cold."
+    ],
+    "time": 30,
+    "landOfOrigin": "Turkey",
+    "glutenFree": false,
+    "vegan": true,
+    "spiceLevel": 2
+  },
+  {
+    "name": "Baklava",
+    "ingredients": ["Phyllo dough", "Chopped pistachios or walnuts", "Butter", "Sugar", "Water", "Lemon juice", "Honey"],
+    "preparation": [
+      "Layer phyllo sheets, brush with butter.",
+      "Sprinkle nuts between layers.",
+      "Repeat until done, cut into diamond shapes.",
+      "Bake until golden.",
+      "Prepare syrup with sugar, water, lemon, honey.",
+      "Pour syrup over baklava.",
+      "Serve at room temperature."
+    ],
+    "time": 60,
+    "landOfOrigin": "Turkey",
+    "glutenFree": false,
+    "vegan": false,
+    "spiceLevel": 0
+  }
+]
