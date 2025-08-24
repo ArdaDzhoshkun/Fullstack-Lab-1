@@ -3,16 +3,23 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const open = require('open').default;
-const path = require('path');
-const Recipe = require('./database/database.js');
-
+const Recipe = require('../database/database.js');
 const server = express();
 const { CONNECTION_URL, PORT } = process.env;
+const path = require('path');
+
+// Serve static files from root/html
+server.use(express.static(path.join(__dirname, '../html')));
+
+// Serve index.html on root
+server.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../html', 'index.html'));
+});
 
 // Parser
 server.use(bodyParser.json());
 
-// Recipe Fetcher
+// Fetches all recipes
 server.get('/api/dishes', async (req, res) => {
     try {
         const allRecipes = await Recipe.find();
@@ -73,12 +80,6 @@ server.delete('/api/dishes/:id', async (req, res) => {
     } catch (err) {
         res.status(500).json({ message: "Error deleting recipe: " + err.message });
     }
-});
-
-// Static
-server.use(express.static(path.join(__dirname, 'html')));
-server.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'html', 'index.html'));
 });
 
 // Managing DB connection

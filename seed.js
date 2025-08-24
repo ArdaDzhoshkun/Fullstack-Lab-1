@@ -1,4 +1,3 @@
-// Seeds a connection and fills DB
 const mongoose = require('mongoose');
 const Recipe = require('./database/database.js');
 const recipes = require('./recipesfortesting.json');

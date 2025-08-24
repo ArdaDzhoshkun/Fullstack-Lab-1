@@ -1,8 +1,8 @@
-
 const mongoose = require('mongoose');
-const Recipe = require('./database/database.js');
-const recipes = require('./recipesfortesting.json');
-require('dotenv').config();
+const Recipe = require('../database/database.js');
+const recipes = require('../recipesfortesting.json');
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(async () => {
